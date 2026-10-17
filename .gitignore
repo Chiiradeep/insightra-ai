@@ -1,0 +1,26 @@
+# Python environments
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local data and generated files
+*.db
+*.sqlite
+*.sqlite3
+outputs/
+*.joblib
+*.pkl
+*.pickle
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
